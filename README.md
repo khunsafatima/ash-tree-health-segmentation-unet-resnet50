@@ -38,6 +38,6 @@ If you use data, code, or trained model in a scientific publication, citations w
 
 
 ## Contact Information
-For collaboration, questions, or feedback, please email k.fatima1@newcastle.ac.uk or khunsafatima@gmail.com
+For collaboration, questions, or feedback, please email kf178@leicester.ac.uk or khunsafatima@gmail.com
 
 
