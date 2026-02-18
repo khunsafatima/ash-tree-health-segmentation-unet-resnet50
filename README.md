@@ -8,7 +8,14 @@ data/: Directory holding the dataset used for training and testing.
 models/: Contains the trained model files.
 requirements.txt: List of dependencies for replicating the project environment.
 ## Model Description
-The model is built using [insert framework, e.g., TensorFlow, PyTorch] and is designed to segment ash tree images into multiple classes based on [list features, e.g., leaves, bark, surroundings].
+The model is built using [insert framework, e.g., TensorFlow, PyTorch] and is designed to segment ash tree images into multiple classes based on [list features, e.g., leaves, bark, surroundings]. 
+
+## Model Weights
+Due to file size, model weights are hosted on Zenodo:
+Download here:
+https://doi.org/xxxx
+After download, place file in:
+model/unet_resnet50_ash_tree.h5
 
 ## Installation
 To set up the project environment:
@@ -22,7 +29,7 @@ To perform segmentation on new images: `python code/segment_image.py
 [Path to image]`
 
 ## Dataset
-Describe the dataset used for training and testing. Mention the source of the data, its structure, and any preprocessing steps applied.
+The model was trained using a mixed dataset including images from public sources and local authority datasets which cannot be redistributed due to licensing restrictions. I am releasing RGB images and corresponding labelled masks which I captured personally, using a DSLR camera, from Priudhoe Rioverside Country Park, UK. The labelled were created using Trimble eCognition Developer (v9) with Object-Based Image Analysis (OBIA). 
 
 ## Results
 Highlight the performance of the model. Include metrics like accuracy, IoU (Intersection over Union), etc. You can also add images showing segmentation results.
