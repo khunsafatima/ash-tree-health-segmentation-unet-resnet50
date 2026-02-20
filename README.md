@@ -9,6 +9,7 @@ This repository contains a deep learning framework for automated tree health ass
   - Crown Length to Tree Height Ratio
   - Crown Symmetry
 The trained model operates on 256 x 256 pixels RGB images and predictions are upscaled back to original resolution for metric computation.
+![Workflow](assets/1-TreeHealthWorkFlow.png)
 
 ## Dataset Availability
 The model was trained using a mixed dataset including images from public sources and local authority datasets which cannot be redistributed due to licensing restrictions. I am releasing RGB images and corresponding labelled masks which I captured personally, using a DSLR camera, from Prudhoe Rioverside Country Park, UK. The labelled were created using Trimble eCognition Developer (v9) with Object-Based Image Analysis (OBIA). 
