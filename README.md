@@ -57,6 +57,11 @@ Instructions for how others can contribute to the project. This might include gu
 ## Acknowledgements
 If you use data, code, or trained model in a scientific publication, citations would be appreciated
 
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
+
 
 ## Contact Information
 For collaboration, questions, or feedback, please email kf178@leicester.ac.uk 
