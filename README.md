@@ -14,7 +14,7 @@ This repository contains a deep learning framework for automated tree health ass
   - Crown Symmetry
 The trained model operates on 256 x 256 pixels RGB images and predictions are upscaled back to original resolution for metric computation.
 
-[Workflow](assets/1-TreeHealthWorkFlow.png)
+![Workflow](assets/1-TreeHealthWorkFlow.png)
 
 ## Model Documentation
 
@@ -51,6 +51,7 @@ To perform segmentation on new images: `python code/segment_image.py
 
 ## Results
 
+![An Example image displaying RGB image along with prediction (segmented image) using trained model](RGB_Image_and_prediction.png)
 
 
 
