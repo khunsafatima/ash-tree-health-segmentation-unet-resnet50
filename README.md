@@ -20,13 +20,15 @@ The model was trained using a mixed dataset including images from public sources
 Users can use the released dataset or could use their own RGB images for making predictions from the trained model. 
 
 ## Model Weights
-Due to GitHub file size limitations, model weights are hosted separately on Zonedo.
+Due to GitHub file size limitations, model weights are hosted separately on Zenodo.
 Download Link: https://zenodo.org/records/18709178
+
 Place the file inside:
 model/unet_resnet50_ash_tree_segmentation.hdf5
 
 ## Citation
 If you use data, code, or trained model in a scientific publication, citations would be appreciated:
+
 @article{FATIMA2026129345,
 title = {Integrated Deep Learning Framework for Automating Tree Health Assessment Using Ground-Based Images},
 journal = {Urban Forestry & Urban Greening},
