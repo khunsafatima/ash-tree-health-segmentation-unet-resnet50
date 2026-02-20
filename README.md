@@ -1,4 +1,4 @@
-# **Tree Trifecta: A Deep Learning Convolutional Neural Network Model for Multiclass Semantic Segmentation of Ash Tree Images**
+# **Tree Health Assessment using Deep Learning from Ground-Based RGB Images**
 ## Project Overview
 This repository contains the resources and documentation for a deep learning model designed for multiclass semantic segmentation of ash tree images. The model aims to identify various features of ash trees in images, providing detailed segmentation useful for environmental studies, forestry management, and ecological research.
 
