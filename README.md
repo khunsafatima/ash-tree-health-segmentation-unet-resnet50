@@ -1,24 +1,37 @@
-# **Tree Health Assessment using Deep Learning from Ground-Based RGB Images**
+# **Tree Health Assessment using Deep Learning on Ground-Based RGB Images**
 ## Project Overview
-This repository contains the resources and documentation for a deep learning model designed for multiclass semantic segmentation of ash tree images. The model aims to identify various features of ash trees in images, providing detailed segmentation useful for environmental studies, forestry management, and ecological research.
+This repository contains a deep learning framework for automated tree health assessment from ground-based RGB images. The framework consists of:
+- A UNet model with ResNet50 backbone for multiclass semantic segmentation
+- Segmentation of tree images into components (floiage, wood, ivy, background)
+- Tree health indicators derived from segmentation masks:
+  - Defoliation (%)
+  - Tree Tilt (angle)
+  - Crown Length to Tree Height Ratio
+  - Crown Symmetry
+The trained model operates on 256 x 256 pixels RGB images and predictions are upscaled back to original resolution for metric computation.
 
-## Contents
-code/: Directory containing the source code.
-data/: Directory holding the dataset used for training and testing.
-models/: Contains the trained model files.
-requirements.txt: List of dependencies for replicating the project environment.
-## Model Description
-The model is built using [insert framework, e.g., TensorFlow, PyTorch] and is designed to segment ash tree images into multiple classes based on [list features, e.g., leaves, bark, surroundings]. 
+## Dataset Availability
+The model was trained using a mixed dataset including images from public sources and local authority datasets which cannot be redistributed due to licensing restrictions. I am releasing RGB images and corresponding labelled masks which I captured personally, using a DSLR camera, from Prudhoe Rioverside Country Park, UK. The labelled were created using Trimble eCognition Developer (v9) with Object-Based Image Analysis (OBIA). 
+Users can use the released dataset or could use their own RGB images for making predictions from the trained model. 
 
 ## Model Weights
-Due to file size, model weights are hosted on Zenodo:
-Download here:
-https://doi.org/xxxx
-After download, place file in:
-model/unet_resnet50_ash_tree.h5
+Due to GitHub file size limitations, model weights are hosted separately.
+Download Link: 
+Place the file inside:
+model/unet_resnet50_ash_tree_segmentation.hdf5
 
-## Installation
-To set up the project environment:
+## Citation
+If you use data, code, or trained model in a scientific publication, citations would be appreciated:
+@article{Fatima2026TreeHealth,
+  title={Integrated Deep Learning Framework for Automating Tree Health Assessment using Ground-based Images},
+  author={Khunsa Fatima},
+  journal={Urban Forestry and Urban Greening},
+  year={2026},
+  doi={DOI_here}
+}
+
+## Model Card
+model/README.md
 
 ## Clone the repository: git clone [URL]
 Navigate to the project directory: cd [repository name]
@@ -28,8 +41,7 @@ To train the model: python code/train_model.py
 To perform segmentation on new images: `python code/segment_image.py
 [Path to image]`
 
-## Dataset
-The model was trained using a mixed dataset including images from public sources and local authority datasets which cannot be redistributed due to licensing restrictions. I am releasing RGB images and corresponding labelled masks which I captured personally, using a DSLR camera, from Priudhoe Rioverside Country Park, UK. The labelled were created using Trimble eCognition Developer (v9) with Object-Based Image Analysis (OBIA). 
+
 
 ## Results
 Highlight the performance of the model. Include metrics like accuracy, IoU (Intersection over Union), etc. You can also add images showing segmentation results.
@@ -45,6 +57,6 @@ If you use data, code, or trained model in a scientific publication, citations w
 
 
 ## Contact Information
-For collaboration, questions, or feedback, please email kf178@leicester.ac.uk or khunsafatima@gmail.com
+For collaboration, questions, or feedback, please email kf178@leicester.ac.uk 
 
 
