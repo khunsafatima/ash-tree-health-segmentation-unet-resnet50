@@ -53,7 +53,7 @@ Highlight the performance of the model. Include metrics like accuracy, IoU (Inte
 Instructions for how others can contribute to the project. This might include guidelines for submitting issues, pull requests, and contact information for queries.
 
 ## License
-Specify the license under which your project is released, such as MIT, GPL, etc.
+
 
 ## Acknowledgements
 If you use data, code, or trained model in a scientific publication, citations would be appreciated
