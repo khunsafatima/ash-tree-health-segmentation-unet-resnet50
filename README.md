@@ -52,7 +52,7 @@ To perform segmentation on new images: `python code/segment_image.py
 
 ## Results
 
-![An Example](prediction.png)
+![An Example](assets/prediction.png)
 
 
 
