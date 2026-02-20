@@ -1,6 +1,6 @@
 # **Tree Health Assessment using Deep Learning on Ground-Based RGB Images**
 
-[License: MIT] (https://img.shields.io/badge/License-MIT-yellow.svg)
+[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Project Overview
 
@@ -18,7 +18,7 @@ The trained model operates on 256 x 256 pixels RGB images and predictions are up
 
 ## Model Documentation
 
-[Model Card] (model/README.md)
+[Model Card](model/README.md)
 
 ## Clone the repository: git clone [URL]
 
