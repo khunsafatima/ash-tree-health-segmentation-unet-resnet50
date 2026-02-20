@@ -52,7 +52,7 @@ To perform segmentation on new images: `python code/segment_image.py
 
 ## Results
 
-![An Example image displaying RGB image along with prediction (segmented image) using trained model](RGB_Image_and_prediction.png)
+![An Example image displaying RGB image along with prediction-segmented image-using trained model](RGB_Image_and_prediction.png)
 
 
 
