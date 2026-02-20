@@ -1,4 +1,6 @@
 # **Tree Health Assessment using Deep Learning on Ground-Based RGB Images**
+
+![License: MIT] (https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Project Overview
 This repository contains a deep learning framework for automated tree health assessment from ground-based RGB images. The framework consists of:
 - A UNet model with ResNet50 backbone for multiclass semantic segmentation
@@ -51,9 +53,6 @@ Highlight the performance of the model. Include metrics like accuracy, IoU (Inte
 
 ## Contributing
 Instructions for how others can contribute to the project. This might include guidelines for submitting issues, pull requests, and contact information for queries.
-
-## License
-
 
 ## Acknowledgements
 If you use data, code, or trained model in a scientific publication, citations would be appreciated
