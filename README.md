@@ -52,7 +52,7 @@ To perform segmentation on new images: `python code/segment_image.py
 
 ## Results
 
-![An Example](assets/RGB_Image_Prediction.png)
+![An Example](assets/Prediction.png)
 <p align="center"><strong>Figure: </strong> RGB Ash Tree Image along with Prediction (Segmented Image) using trained UNet (with ResNet50 backbone) model</p>
 
 
