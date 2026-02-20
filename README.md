@@ -43,6 +43,7 @@ Users can use the released dataset or could use their own RGB images for making 
 ## Usage
 
 [To train the model: 01_train_unet_resnet50_ash_tree_segmentation.ipynb](notebooks/01_train_unet_resnet50_ash_tree_segmentation.ipynb)
+[To evaluate the trained model: 02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb](02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb)
 
 To perform segmentation on new images: `python code/segment_image.py
 [Path to image]`
