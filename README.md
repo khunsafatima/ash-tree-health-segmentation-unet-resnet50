@@ -10,7 +10,7 @@ This repository contains a deep learning framework for automated tree health ass
   - Crown Symmetry
 The trained model operates on 256 x 256 pixels RGB images and predictions are upscaled back to original resolution for metric computation.
 
-![Workflow](assets/1-TreeHealthWorkFlow.png
+![Workflow](assets/1-TreeHealthWorkFlow.png)
 ---
 
 ## Dataset Availability
