@@ -43,7 +43,7 @@ author = {Khunsa Fatima and Ankush Prashar and Andrew Crowe and Paul Brown and R
 model/README.md
 
 ## Clone the repository: git clone [URL]
-Navigate to the project directory: cd [repository name]
+Navigate to the project directory: cd [ash-tree-health-segmentation-unet-resnet50]
 Install dependencies: pip install -r requirements.txt
 ## Usage
 To train the model: python code/train_model.py
@@ -58,8 +58,6 @@ To perform segmentation on new images: `python code/segment_image.py
 ## Contributing
 
 
-## Acknowledgements
-If you use data, code, or trained model in a scientific publication, citations would be appreciated
 
 ## License
 
