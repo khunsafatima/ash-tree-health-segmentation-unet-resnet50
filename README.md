@@ -16,7 +16,7 @@ The trained model operates on 256 x 256 pixels RGB images and predictions are up
 ---
 
 ## Dataset Availability
-The model was trained using a mixed dataset including images from public sources and local authority datasets which cannot be redistributed due to licensing restrictions. I am releasing RGB images and corresponding labelled masks which I captured personally, using a DSLR camera, from Prudhoe Rioverside Country Park, UK. The labelled were created using Trimble eCognition Developer (v9) with Object-Based Image Analysis (OBIA). 
+The model was trained using a mixed dataset including images from public sources and local authority datasets which cannot be redistributed due to licensing restrictions. I am releasing RGB images and corresponding labelled masks which I captured personally, using a DSLR camera, from Prudhoe Rioverside Country Park, UK. The labels were created using Trimble eCognition Developer (v9) with Object-Based Image Analysis (OBIA). 
 Users can use the released dataset or could use their own RGB images for making predictions from the trained model. 
 
 ## Model Weights
@@ -49,10 +49,10 @@ To perform segmentation on new images: `python code/segment_image.py
 
 
 ## Results
-Highlight the performance of the model. Include metrics like accuracy, IoU (Intersection over Union), etc. You can also add images showing segmentation results.
+
 
 ## Contributing
-Instructions for how others can contribute to the project. This might include guidelines for submitting issues, pull requests, and contact information for queries.
+
 
 ## Acknowledgements
 If you use data, code, or trained model in a scientific publication, citations would be appreciated
