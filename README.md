@@ -49,16 +49,14 @@ Users can use the released dataset or could use their own RGB images for making 
 
 [To make predictions on new images](03_predictions_unet_resnet50_ash_tree_segmentation.ipynb)
 
+![example](assets/prediction.png)
+<p align="center"><strong>Figure: </strong> RGB Ash Tree Image along with Prediction (Segmented Image) using trained UNet (with ResNet50 backbone) model</p>
+
 [Defoliation Estimation](04_tree_indicator_defoliation.ipynb)
 
 [Tree Tilt Estimation](05_tree_indicator_treetilt.ipynb)
 
 [Crown Length to Tree Height Ratio Estimation](06_tree_indicator_crownlengthtotreeheightratio.ipynb)
-
-## Results
-![example](assets/prediction.png)
-<p align="center"><strong>Figure: </strong> RGB Ash Tree Image along with Prediction (Segmented Image) using trained UNet (with ResNet50 backbone) model</p>
-
 
 
 ## License
