@@ -60,18 +60,36 @@ You may train UNet (with ResNet50 backbone) segmentation model using either:
 
 [Python Script](scripts/01_train_unet_resnet50_ash_tree_segmentation.py) or [Jupyter Notebook](notebooks/01_train_unet_resnet50_ash_tree_segmentation.ipynb)
 
-[To evaluate the trained model](02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb)
+## Model Evaluation
 
-[To make predictions on new images](03_predictions_unet_resnet50_ash_tree_segmentation.ipynb)
+Evaluet the trained model on a test dataset using either:
+
+[Python Script](scripts/02_evaluate_unet_resnet50_ash_tree_segmentation.py) or [Jupyter Notebook](notebooks/02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb)
+
+## Model Inference
+
+To make predictions on any unseen dataset, use either:
+
+[Python Script](scripts/03_predictions_unet_resnet50_ash_tree_segmentation.py) or [Jupyter Notebook](notebooks/03_predictions_unet_resnet50_ash_tree_segmentation.ipynb)
 
 ![example](assets/prediction.png)
 <p align="center"><strong>Figure: </strong> RGB Ash Tree Image along with Prediction (Segmented Image) using trained UNet (with ResNet50 backbone) model</p>
 
-[Defoliation Estimation](04_tree_indicator_defoliation.ipynb)
+## Tree Health Indicators Estimation
 
-[Tree Tilt Estimation](05_tree_indicator_treetilt.ipynb)
+The following scripts compute structural health indicators:
 
-[Crown Length to Tree Height Ratio Estimation](06_tree_indicator_crownlengthtotreeheightratio.ipynb)
+### Defoliation (%)
+
+[Python Script](scripts/04_tree_indicator_defoliation.py) or [Jupyter Notebook](notebooks/04_tree_indicator_defoliation.ipynb)
+
+### Tree Tilt 
+
+[Python Script](scripts/05_tree_indicator_treetilt.py) or [Jupyter Notebook](notebooks/05_tree_indicator_treetilt.ipynb)
+
+### Crown Length to Tree Height Ratio
+
+[Python Script](scripts/06_tree_indicator_crownlengthtotreeheightratio.py) or [Jupyter Notebook](notebooks/06_tree_indicator_crownlengthtotreeheightratio.ipynb)
 
 
 ## License
