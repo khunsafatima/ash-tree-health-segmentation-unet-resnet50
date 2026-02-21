@@ -56,11 +56,9 @@ Users can use the released dataset or could use their own RGB images for making 
 
 ## Model Training 
 
-You may train UNet (with ResNet50 backbone) segmentation model using eaither:
+You may train UNet (with ResNet50 backbone) segmentation model using either:
 
-[Python Script](scripts/01_train_unet_resnet50_ash_tree_segmentation.py)
-or 
-[Jupyter Notebook](notebooks/01_train_unet_resnet50_ash_tree_segmentation.ipynb)
+[Python Script](scripts/01_train_unet_resnet50_ash_tree_segmentation.py) or [Jupyter Notebook](notebooks/01_train_unet_resnet50_ash_tree_segmentation.ipynb)
 
 [To evaluate the trained model](02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb)
 
