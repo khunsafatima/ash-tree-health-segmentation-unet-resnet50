@@ -24,6 +24,9 @@ The trained model operates on 256 x 256 pixels RGB images and predictions are up
 ## Clone the repository: git clone [URL]
 
 Navigate to the project directory: cd [ash-tree-health-segmentation-unet-resnet50]
+
+[The required python libraries are listed in requirements.txt](requirements.txt)
+
 Install dependencies: pip install -r requirements.txt
 
 ## Model Weights
