@@ -1,1 +1,26 @@
+name: treehealth-dl
+channels:
+  - conda-forge
+  - defaults
 
+dependencies:
+  # Python
+  - python=3.10
+
+  # Core scientific stack
+  - numpy=1.23
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tqdm
+
+  # Image handling
+  - pillow
+  - opencv
+  - rasterio
+
+  # Deep learning
+  - pip
+  - pip:
+      - tensorflow==2.12.0
+      - segmentation-models==1.0.1
