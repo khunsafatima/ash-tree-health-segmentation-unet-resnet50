@@ -43,12 +43,17 @@ Users can use the released dataset or could use their own RGB images for making 
 
 ## Usage
 
-[To train the model: 01_train_unet_resnet50_ash_tree_segmentation.ipynb](notebooks/01_train_unet_resnet50_ash_tree_segmentation.ipynb)
+[To train the model](notebooks/01_train_unet_resnet50_ash_tree_segmentation.ipynb)
 
-[To evaluate the trained model: 02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb](02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb)
+[To evaluate the trained model](02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb)
 
-To perform segmentation on new images: `python code/segment_image.py
-[Path to image]`
+[To make predictions on new images](03_predictions_unet_resnet50_ash_tree_segmentation.ipynb)
+
+[Defoliation Estimation](04_tree_indicator_defoliation.ipynb)
+
+[Tree Tilt Estimation](05_tree_indicator_treetilt.ipynb)
+
+[Crown Length to Tree Height Ratio Estimation](06_tree_indicator_crownlengthtotreeheightratio.ipynb)
 
 ## Results
 ![example](assets/prediction.png)
