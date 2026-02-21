@@ -27,7 +27,7 @@ Navigate to the project directory: cd [ash-tree-health-segmentation-unet-resnet5
 
 ## Requirements
 
-[The required python libraries are listed in requirements.txt](requirements.txt)
+[The required python libraries](requirements.txt)
 
 Install dependencies: pip install -r requirements.txt
 
