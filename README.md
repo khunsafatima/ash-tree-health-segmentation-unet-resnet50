@@ -54,9 +54,12 @@ I am releasing RGB images and corresponding labelled masks which I captured pers
 The labels were created using Trimble eCognition Developer (v9) with Object-Based Image Analysis (OBIA). 
 Users can use the released dataset or could use their own RGB images for making predictions from the trained model. 
 
-## Usage
+## Model Training 
 
-[To train the model](notebooks/01_train_unet_resnet50_ash_tree_segmentation.ipynb)
+You may train UNet (with ResNet50 backbone) segmentation model using eaither:
+[Python Script](scripts/01_train_unet_resnet50_ash_tree_segmentation.py)
+
+[Jupyter Notebook](notebooks/01_train_unet_resnet50_ash_tree_segmentation.ipynb)
 
 [To evaluate the trained model](02_evaluate_unet_resnet50_ash_tree_segmentation.ipynb)
 
