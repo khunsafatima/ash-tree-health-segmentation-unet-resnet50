@@ -42,7 +42,7 @@ model/unet_resnet50_ash_tree_segmentation.hdf5
 ## Dataset Availability
 
 The model was trained using a mixed dataset including images from public sources and local authority datasets which cannot be redistributed due to licensing restrictions. 
-I am releasing RGB images and corresponding labelled masks which I captured personally, using a DSLR camera, from Prudhoe Rioverside Country Park, UK. 
+I am releasing RGB images and corresponding labelled masks which I captured personally, using a DSLR camera, from Prudhoe Riverside Country Park, UK. 
 The labels were created using Trimble eCognition Developer (v9) with Object-Based Image Analysis (OBIA). 
 Users can use the released dataset or could use their own RGB images for making predictions from the trained model. 
 
