@@ -30,7 +30,9 @@ Navigate to the project directory: cd [ash-tree-health-segmentation-unet-resnet5
 [For conda users](environment.yml)
 
 conda env create -f environment.yml
+
 conda activate treehealth-dl
+
 
 
 [For pip users](requirements.txt)
