@@ -27,7 +27,13 @@ Navigate to the project directory: cd [ash-tree-health-segmentation-unet-resnet5
 
 ## Requirements
 
-[The required python libraries](requirements.txt)
+[For conda users](environment.yml)
+
+conda env create -f environment.yml
+conda activate treehealth-dl
+
+
+[For pip users](requirements.txt)
 
 Install dependencies: pip install -r requirements.txt
 
